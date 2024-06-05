@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: linear-gradient(to right, #254336, #6295A2 );
+    color: white;
+    padding: 10px 0;
+    overflow: hidden;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+
+
+.menu ul li a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #FEFFD2; 
+    background-color: #AF8F6F;
+}
+
+.Konten {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.Judul a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+    background-color: #6295A2;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a
+
+.Konten {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#beranda {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.deskripsi {
+    font-style: italic;
+    color: #777;
+}
+
+.Artikel {
+    width: calc(33.33% - 20px); 
+    display: inline-block; 
+    vertical-align: top; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+}
+
+.Artikel h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.Artikel img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.Artikel p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.Artikel:last-child {
+    margin-right: 0;
+}
+
+#profile {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #edf8f3;
+}
+
+.portofolio {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.portofolio .deskripsi {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.portofolio h2 {
+    font-size: 32px;
+    color: #333;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.portofolio img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.portofolio h3 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.portofolio p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.portofolio p b {
+    color: #0e0d0d;
+}
+
+.portofolio:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+#daftar {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffffff; 
+}
+
+.formulir {
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.formulir .deskripsi {
+    font-size: 20px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.formulir h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.formulir table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.formulir table td,
+.formulir table th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.formulir table th {
+    background-color: #f0f0f0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.formulir input[type="text"],
+.formulir input[type="number"],
+.formulir input[type="date"],
+.formulir textarea,
+.formulir select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.formulir input[type="checkbox"],
+.formulir input[type="radio"] {
+    margin-right: 5px;
+}
+
+.formulir input[type="submit"],
+.formulir input[type="reset"] {
+    padding: 12px 24px;
+    margin: 20px 10px 0 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.formulir input[type="submit"]:hover,
+.formulir input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+.formulir:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+#data {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.kolom {
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.kolom h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.kolom table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.kolom th, .kolom td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.kolom th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+#contact {
+    background-color: #6295A2;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.akhir {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 250px; 
+}
+
+.footer-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-section p b {
+    font-weight: bold;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
